@@ -1,0 +1,7 @@
+<h1>Users Page</h1>
+<p><b>Current Users</b></p>
+<ol>
+    <% @users.each do |user| %>
+        <li class="awesome-list"><%= user.name %></li>
+    <% end %> 
+</ol>
